@@ -3,8 +3,8 @@
 $title = "INOVATECH";
 $scron = "Tabela";
 if ($scron == "Visualizador") {
-    include 'layout/headv.php'; 
-    header("refresh: 1;");
+    include 'layout/headv.php';
+    header("refresh: 1;"); 
 }else{
     include 'layout/head.php'; 
 }
@@ -37,6 +37,7 @@ include 'classe/conex.php';
                                         <th>CSS grade</th>
                                     </tr>
                                 </thead>
+                                <!-- inicio Incluir PHP para consultar Banco -->
                                 <tbody>
                                     <tr class="odd gradeX">
                                         <td>Trident</td>
@@ -44,10 +45,9 @@ include 'classe/conex.php';
                                         <td>Win 95+</td>
                                         <td class="center">4</td>
                                         <td class="center">X</td>
-                                    </tr>
-                                
-                            
+                                    </tr>                           
                                 </tbody>
+                                <!-- Fim Incluir PHP para consultar Banco -->
                             </table>
                             <!-- /.table-responsive -->
                          
