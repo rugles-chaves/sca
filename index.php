@@ -22,7 +22,7 @@ if ($scron == "Visualizador") {
                                         </div>
 
                                         <div class="form-group">
-                                            <input class="form-control" placeholder="Placa" name="placa" type="password" value="">
+                                            <input class="form-control" placeholder="Placa" name="placa" type="text" value="">
                                         </div>
 
                                         <div class="form-group">
